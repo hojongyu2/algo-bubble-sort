@@ -58,7 +58,7 @@ Pre-Sequence Previous Current Swap? Post-Sequence
 Once that `nil` pops up in `current` then we're done! We'd say that this run
 of the algorithm made `7` swaps.
 
-## Challenge 1: Implement It
+## Release 1: Implement It
 
 Write an implementation of bubble sort.
 
@@ -71,8 +71,12 @@ bubble sort (aka, what order would necessitate the most swaps)?
 * The example above took 21 iterations to get to a result. Can you tweak the
 algorithm so that it takes the same number of swaps (`7`) but fewer total operations?
 
-## Challenge 2: Full Collection Passes
+## Release 2: Full Collection Passes
 
 The version of bubble sort described above is actually a slightly simplified version of the algorithm which uses a "short-circuiting" approach to making successive iterations. As soon as a number is swapped, go back to the beginning of the list and try again. According to the "real" algorithm, every pass should actually iterate completely through the list, and then decide whether another pass is needed.
 
-See if you can write another, slightly modified, version of the algorithm which follows this pattern. You'll need to add some code to keep track during each pass of whether a swap has been made _any time during that pass_. The [wikipedia entry on bubble sort](http://en.wikipedia.org/wiki/Bubble_sort) has some useful visualizations of the process which you can refer to to aid your understanding.
+See if you can write another, slightly modified, version of the algorithm which follows this pattern. You'll need to add some code to keep track during each pass of whether a swap has been made _any time during that pass_.
+
+## Resources
+* The [wikipedia entry on bubble sort](http://en.wikipedia.org/wiki/Bubble_sort) has some useful visualizations of the process which you can refer to to aid your understanding.
+* VisuAlgo.net [Bubble Sort](https://visualgo.net/en/sorting?slide=6)
