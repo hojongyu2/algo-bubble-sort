@@ -58,6 +58,9 @@ Pre-Sequence Previous Current Swap? Post-Sequence
 Once that `nil` pops up in `current` then we're done! We'd say that this run
 of the algorithm made `7` swaps.
 
+## Release 0: Write Unit Tests
+Always.
+
 ## Release 1: Implement It
 
 Write an implementation of bubble sort.
