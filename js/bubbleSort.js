@@ -13,6 +13,7 @@ function result (numberList) {
                 numberList[i] = curr
                 numberList[i+1] = prev
                 isSwapped = true
+                swaps ++
             }
         }
     }
